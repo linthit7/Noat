@@ -1,0 +1,16 @@
+PODS:
+  - LXPageControl (1.0.0)
+
+DEPENDENCIES:
+  - LXPageControl
+
+SPEC REPOS:
+  trunk:
+    - LXPageControl
+
+SPEC CHECKSUMS:
+  LXPageControl: 9da4a6318158faf7c472fb7bb80113d9ce8707ca
+
+PODFILE CHECKSUM: a00f29fb8f69b70dd93850c6e8685a47b22f83ab
+
+COCOAPODS: 1.11.3

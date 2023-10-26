@@ -1,0 +1,6 @@
+framework module Pods_Noat {
+  umbrella header "Pods-Noat-umbrella.h"
+
+  export *
+  module * { export * }
+}

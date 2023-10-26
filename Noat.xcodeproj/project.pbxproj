@@ -7,19 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B137693C25923B7AF467664D /* Pods_Noat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD7F0A220E6D411F72480F0 /* Pods_Noat.framework */; };
+		CD65800A2AEA5D0100E921F0 /* ParentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6580092AEA5D0100E921F0 /* ParentCoordinator.swift */; };
+		CD65800C2AEA5EED00E921F0 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65800B2AEA5EED00E921F0 /* MainCoordinator.swift */; };
+		CD9BE6112AE910CA000636BF /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BE60F2AE910CA000636BF /* OnboardingViewController.swift */; };
+		CD9BE6122AE910CA000636BF /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9BE6102AE910CA000636BF /* OnboardingViewController.xib */; };
+		CD9BE6142AE91597000636BF /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BE6132AE91597000636BF /* OnboardingPage.swift */; };
+		CD9BE6162AE915C7000636BF /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BE6152AE915C7000636BF /* OnboardingViewModel.swift */; };
+		CD9BE6192AE91604000636BF /* OnboardingPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BE6172AE91604000636BF /* OnboardingPageCollectionViewCell.swift */; };
+		CD9BE61A2AE91604000636BF /* OnboardingPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9BE6182AE91604000636BF /* OnboardingPageCollectionViewCell.xib */; };
+		F998184F2AE1358A0085D640 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998184E2AE1358A0085D640 /* OnboardingCoordinator.swift */; };
 		F9E05A962ADFDEE80038C8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05A952ADFDEE80038C8EF /* AppDelegate.swift */; };
 		F9E05A982ADFDEE80038C8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05A972ADFDEE80038C8EF /* SceneDelegate.swift */; };
 		F9E05A9F2ADFDEEA0038C8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E05A9E2ADFDEEA0038C8EF /* Assets.xcassets */; };
 		F9E05AA22ADFDEEA0038C8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E05AA02ADFDEEA0038C8EF /* LaunchScreen.storyboard */; };
+		F9E05AB92AE021190038C8EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05AB72AE021190038C8EF /* MainViewController.swift */; };
+		F9E05ABA2AE021190038C8EF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E05AB82AE021190038C8EF /* MainViewController.xib */; };
+		F9E05ABC2AE021ED0038C8EF /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05ABB2AE021ED0038C8EF /* CoordinatorProtocol.swift */; };
+		F9E05ABE2AE022390038C8EF /* NotesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05ABD2AE022390038C8EF /* NotesCoordinator.swift */; };
+		F9E05AC12AE023540038C8EF /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05ABF2AE023540038C8EF /* NotesViewController.swift */; };
+		F9E05AC22AE023540038C8EF /* NotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E05AC02AE023540038C8EF /* NotesViewController.xib */; };
+		F9E05AC42AE037C70038C8EF /* EventsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05AC32AE037C70038C8EF /* EventsCoordinator.swift */; };
+		F9E05AC62AE038050038C8EF /* SearchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05AC52AE038050038C8EF /* SearchCoordinator.swift */; };
+		F9E05AC92AE038D70038C8EF /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05AC72AE038D70038C8EF /* EventsViewController.swift */; };
+		F9E05ACA2AE038D70038C8EF /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E05AC82AE038D70038C8EF /* EventsViewController.xib */; };
+		F9E05ACD2AE038FC0038C8EF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05ACB2AE038FC0038C8EF /* SearchViewController.swift */; };
+		F9E05ACE2AE038FC0038C8EF /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E05ACC2AE038FC0038C8EF /* SearchViewController.xib */; };
+		F9E05AD02AE039210038C8EF /* CreateNoteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05ACF2AE039210038C8EF /* CreateNoteCoordinator.swift */; };
+		F9E05AD32AE039640038C8EF /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05AD12AE039640038C8EF /* CreateNoteViewController.swift */; };
+		F9E05AD42AE039640038C8EF /* CreateNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E05AD22AE039640038C8EF /* CreateNoteViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		388E5E1727936BB5A804345C /* Pods-Noat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noat.debug.xcconfig"; path = "Target Support Files/Pods-Noat/Pods-Noat.debug.xcconfig"; sourceTree = "<group>"; };
+		43C9348566D06BE0ACDAB20E /* Pods-Noat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noat.release.xcconfig"; path = "Target Support Files/Pods-Noat/Pods-Noat.release.xcconfig"; sourceTree = "<group>"; };
+		CD6580092AEA5D0100E921F0 /* ParentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentCoordinator.swift; sourceTree = "<group>"; };
+		CD65800B2AEA5EED00E921F0 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		CD9BE60F2AE910CA000636BF /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CD9BE6102AE910CA000636BF /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		CD9BE6132AE91597000636BF /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		CD9BE6152AE915C7000636BF /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		CD9BE6172AE91604000636BF /* OnboardingPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD9BE6182AE91604000636BF /* OnboardingPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingPageCollectionViewCell.xib; sourceTree = "<group>"; };
+		EAD7F0A220E6D411F72480F0 /* Pods_Noat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F998184E2AE1358A0085D640 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		F9E05A922ADFDEE80038C8EF /* Noat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E05A952ADFDEE80038C8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9E05A972ADFDEE80038C8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F9E05A9E2ADFDEEA0038C8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9E05AA12ADFDEEA0038C8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9E05AA32ADFDEEA0038C8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E05AB72AE021190038C8EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F9E05AB82AE021190038C8EF /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F9E05ABB2AE021ED0038C8EF /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		F9E05ABD2AE022390038C8EF /* NotesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCoordinator.swift; sourceTree = "<group>"; };
+		F9E05ABF2AE023540038C8EF /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		F9E05AC02AE023540038C8EF /* NotesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesViewController.xib; sourceTree = "<group>"; };
+		F9E05AC32AE037C70038C8EF /* EventsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCoordinator.swift; sourceTree = "<group>"; };
+		F9E05AC52AE038050038C8EF /* SearchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCoordinator.swift; sourceTree = "<group>"; };
+		F9E05AC72AE038D70038C8EF /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		F9E05AC82AE038D70038C8EF /* EventsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		F9E05ACB2AE038FC0038C8EF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F9E05ACC2AE038FC0038C8EF /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		F9E05ACF2AE039210038C8EF /* CreateNoteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteCoordinator.swift; sourceTree = "<group>"; };
+		F9E05AD12AE039640038C8EF /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
+		F9E05AD22AE039640038C8EF /* CreateNoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateNoteViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B137693C25923B7AF467664D /* Pods_Noat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AC2CD7BD001ED9D117DBB83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAD7F0A220E6D411F72480F0 /* Pods_Noat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E577FA5BDC249E1F52B1D830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				388E5E1727936BB5A804345C /* Pods-Noat.debug.xcconfig */,
+				43C9348566D06BE0ACDAB20E /* Pods-Noat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F9E05A892ADFDEE80038C8EF = {
 			isa = PBXGroup;
 			children = (
 				F9E05A942ADFDEE80038C8EF /* Noat */,
 				F9E05A932ADFDEE80038C8EF /* Products */,
+				E577FA5BDC249E1F52B1D830 /* Pods */,
+				7AC2CD7BD001ED9D117DBB83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +189,14 @@
 		F9E05AB22AE019770038C8EF /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				F9E05ABB2AE021ED0038C8EF /* CoordinatorProtocol.swift */,
+				CD6580092AEA5D0100E921F0 /* ParentCoordinator.swift */,
+				F998184E2AE1358A0085D640 /* OnboardingCoordinator.swift */,
+				F9E05ABD2AE022390038C8EF /* NotesCoordinator.swift */,
+				F9E05AC32AE037C70038C8EF /* EventsCoordinator.swift */,
+				F9E05AC52AE038050038C8EF /* SearchCoordinator.swift */,
+				F9E05ACF2AE039210038C8EF /* CreateNoteCoordinator.swift */,
+				CD65800B2AEA5EED00E921F0 /* MainCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -124,6 +204,7 @@
 		F9E05AB32AE0197C0038C8EF /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CD9BE6152AE915C7000636BF /* OnboardingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -131,6 +212,18 @@
 		F9E05AB42AE019810038C8EF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F9E05AB72AE021190038C8EF /* MainViewController.swift */,
+				F9E05AB82AE021190038C8EF /* MainViewController.xib */,
+				F9E05ABF2AE023540038C8EF /* NotesViewController.swift */,
+				F9E05AC02AE023540038C8EF /* NotesViewController.xib */,
+				F9E05AC72AE038D70038C8EF /* EventsViewController.swift */,
+				F9E05AC82AE038D70038C8EF /* EventsViewController.xib */,
+				F9E05ACB2AE038FC0038C8EF /* SearchViewController.swift */,
+				F9E05ACC2AE038FC0038C8EF /* SearchViewController.xib */,
+				F9E05AD12AE039640038C8EF /* CreateNoteViewController.swift */,
+				F9E05AD22AE039640038C8EF /* CreateNoteViewController.xib */,
+				CD9BE60F2AE910CA000636BF /* OnboardingViewController.swift */,
+				CD9BE6102AE910CA000636BF /* OnboardingViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -138,6 +231,8 @@
 		F9E05AB52AE019870038C8EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD9BE6172AE91604000636BF /* OnboardingPageCollectionViewCell.swift */,
+				CD9BE6182AE91604000636BF /* OnboardingPageCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +240,7 @@
 		F9E05AB62AE0198C0038C8EF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CD9BE6132AE91597000636BF /* OnboardingPage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -156,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9E05AA62ADFDEEA0038C8EF /* Build configuration list for PBXNativeTarget "Noat" */;
 			buildPhases = (
+				18B9ED8ABF2916AB649A8B2C /* [CP] Check Pods Manifest.lock */,
 				F9E05A8E2ADFDEE80038C8EF /* Sources */,
 				F9E05A8F2ADFDEE80038C8EF /* Frameworks */,
 				F9E05A902ADFDEE80038C8EF /* Resources */,
+				CB0D6414E2FDCC002A247248 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,20 +305,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E05AC22AE023540038C8EF /* NotesViewController.xib in Resources */,
+				F9E05ACA2AE038D70038C8EF /* EventsViewController.xib in Resources */,
+				F9E05ACE2AE038FC0038C8EF /* SearchViewController.xib in Resources */,
+				F9E05AD42AE039640038C8EF /* CreateNoteViewController.xib in Resources */,
+				CD9BE61A2AE91604000636BF /* OnboardingPageCollectionViewCell.xib in Resources */,
 				F9E05AA22ADFDEEA0038C8EF /* LaunchScreen.storyboard in Resources */,
+				F9E05ABA2AE021190038C8EF /* MainViewController.xib in Resources */,
 				F9E05A9F2ADFDEEA0038C8EF /* Assets.xcassets in Resources */,
+				CD9BE6122AE910CA000636BF /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B9ED8ABF2916AB649A8B2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0D6414E2FDCC002A247248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noat/Pods-Noat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Noat/Pods-Noat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Noat/Pods-Noat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9E05A8E2ADFDEE80038C8EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E05ACD2AE038FC0038C8EF /* SearchViewController.swift in Sources */,
+				F9E05AB92AE021190038C8EF /* MainViewController.swift in Sources */,
 				F9E05A962ADFDEE80038C8EF /* AppDelegate.swift in Sources */,
+				CD9BE6162AE915C7000636BF /* OnboardingViewModel.swift in Sources */,
+				F998184F2AE1358A0085D640 /* OnboardingCoordinator.swift in Sources */,
+				F9E05AC42AE037C70038C8EF /* EventsCoordinator.swift in Sources */,
+				CD65800A2AEA5D0100E921F0 /* ParentCoordinator.swift in Sources */,
+				F9E05AC12AE023540038C8EF /* NotesViewController.swift in Sources */,
+				F9E05AC62AE038050038C8EF /* SearchCoordinator.swift in Sources */,
+				F9E05ABC2AE021ED0038C8EF /* CoordinatorProtocol.swift in Sources */,
+				CD9BE6192AE91604000636BF /* OnboardingPageCollectionViewCell.swift in Sources */,
+				F9E05AD02AE039210038C8EF /* CreateNoteCoordinator.swift in Sources */,
 				F9E05A982ADFDEE80038C8EF /* SceneDelegate.swift in Sources */,
+				F9E05ABE2AE022390038C8EF /* NotesCoordinator.swift in Sources */,
+				CD65800C2AEA5EED00E921F0 /* MainCoordinator.swift in Sources */,
+				CD9BE6112AE910CA000636BF /* OnboardingViewController.swift in Sources */,
+				F9E05AD32AE039640038C8EF /* CreateNoteViewController.swift in Sources */,
+				F9E05AC92AE038D70038C8EF /* EventsViewController.swift in Sources */,
+				CD9BE6142AE91597000636BF /* OnboardingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,14 +523,17 @@
 		};
 		F9E05AA72ADFDEEA0038C8EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388E5E1727936BB5A804345C /* Pods-Noat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7N24P583L5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Noat/Info.plist;
+				INFOPLIST_FILE = Noat/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -389,14 +556,17 @@
 		};
 		F9E05AA82ADFDEEA0038C8EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C9348566D06BE0ACDAB20E /* Pods-Noat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7N24P583L5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Noat/Info.plist;
+				INFOPLIST_FILE = Noat/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
