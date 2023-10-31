@@ -19,6 +19,7 @@ class NotesCoordinator: Coordinator {
     
     func start() {
         let notesVC = NotesViewController()
+        notesVC.viewModel = NotesViewModel()
         notesVC.tabBarItem = UITabBarItem(title: "Notes", image: UIImage(named: "notesTabBarIcon"), tag: 0)
         notesVC.coordinator = self
         navigationController.pushViewController(notesVC, animated: false)

@@ -16,7 +16,7 @@ class OnboardingViewController: UIViewController {
     @IBOutlet weak var skipButton: UIButton!
     
     var coordinator: OnboardingCoordinator?
-    
+        
     var viewModel: OnboardingViewModel!
     var currentPage: Int = 0 {
         didSet {

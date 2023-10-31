@@ -17,6 +17,11 @@
 		CD9BE6192AE91604000636BF /* OnboardingPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9BE6172AE91604000636BF /* OnboardingPageCollectionViewCell.swift */; };
 		CD9BE61A2AE91604000636BF /* OnboardingPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9BE6182AE91604000636BF /* OnboardingPageCollectionViewCell.xib */; };
 		F998184F2AE1358A0085D640 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F998184E2AE1358A0085D640 /* OnboardingCoordinator.swift */; };
+		F9CE2F002AF15C2800AA62C7 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE2EFF2AF15C2800AA62C7 /* NotesViewModel.swift */; };
+		F9CE2F022AF15C7D00AA62C7 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE2F012AF15C7D00AA62C7 /* MainTab.swift */; };
+		F9CE2F042AF15F5200AA62C7 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE2F032AF15F5200AA62C7 /* UIColor+Extensions.swift */; };
+		F9CE2F072AF15FF400AA62C7 /* MainTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE2F052AF15FF400AA62C7 /* MainTabCollectionViewCell.swift */; };
+		F9CE2F082AF15FF400AA62C7 /* MainTabCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9CE2F062AF15FF400AA62C7 /* MainTabCollectionViewCell.xib */; };
 		F9E05A962ADFDEE80038C8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05A952ADFDEE80038C8EF /* AppDelegate.swift */; };
 		F9E05A982ADFDEE80038C8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E05A972ADFDEE80038C8EF /* SceneDelegate.swift */; };
 		F9E05A9F2ADFDEEA0038C8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E05A9E2ADFDEEA0038C8EF /* Assets.xcassets */; };
@@ -51,6 +56,11 @@
 		CD9BE6182AE91604000636BF /* OnboardingPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingPageCollectionViewCell.xib; sourceTree = "<group>"; };
 		EAD7F0A220E6D411F72480F0 /* Pods_Noat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F998184E2AE1358A0085D640 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		F9CE2EFF2AF15C2800AA62C7 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		F9CE2F012AF15C7D00AA62C7 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
+		F9CE2F032AF15F5200AA62C7 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		F9CE2F052AF15FF400AA62C7 /* MainTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabCollectionViewCell.swift; sourceTree = "<group>"; };
+		F9CE2F062AF15FF400AA62C7 /* MainTabCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabCollectionViewCell.xib; sourceTree = "<group>"; };
 		F9E05A922ADFDEE80038C8EF /* Noat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E05A952ADFDEE80038C8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9E05A972ADFDEE80038C8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +185,7 @@
 		F9E05AB02AE0196C0038C8EF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F9CE2F032AF15F5200AA62C7 /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -205,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				CD9BE6152AE915C7000636BF /* OnboardingViewModel.swift */,
+				F9CE2EFF2AF15C2800AA62C7 /* NotesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -233,6 +245,8 @@
 			children = (
 				CD9BE6172AE91604000636BF /* OnboardingPageCollectionViewCell.swift */,
 				CD9BE6182AE91604000636BF /* OnboardingPageCollectionViewCell.xib */,
+				F9CE2F052AF15FF400AA62C7 /* MainTabCollectionViewCell.swift */,
+				F9CE2F062AF15FF400AA62C7 /* MainTabCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				CD9BE6132AE91597000636BF /* OnboardingPage.swift */,
+				F9CE2F012AF15C7D00AA62C7 /* MainTab.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -312,6 +327,7 @@
 				CD9BE61A2AE91604000636BF /* OnboardingPageCollectionViewCell.xib in Resources */,
 				F9E05AA22ADFDEEA0038C8EF /* LaunchScreen.storyboard in Resources */,
 				F9E05ABA2AE021190038C8EF /* MainViewController.xib in Resources */,
+				F9CE2F082AF15FF400AA62C7 /* MainTabCollectionViewCell.xib in Resources */,
 				F9E05A9F2ADFDEEA0038C8EF /* Assets.xcassets in Resources */,
 				CD9BE6122AE910CA000636BF /* OnboardingViewController.xib in Resources */,
 			);
@@ -372,6 +388,8 @@
 				CD9BE6162AE915C7000636BF /* OnboardingViewModel.swift in Sources */,
 				F998184F2AE1358A0085D640 /* OnboardingCoordinator.swift in Sources */,
 				F9E05AC42AE037C70038C8EF /* EventsCoordinator.swift in Sources */,
+				F9CE2F072AF15FF400AA62C7 /* MainTabCollectionViewCell.swift in Sources */,
+				F9CE2F022AF15C7D00AA62C7 /* MainTab.swift in Sources */,
 				CD65800A2AEA5D0100E921F0 /* ParentCoordinator.swift in Sources */,
 				F9E05AC12AE023540038C8EF /* NotesViewController.swift in Sources */,
 				F9E05AC62AE038050038C8EF /* SearchCoordinator.swift in Sources */,
@@ -382,7 +400,9 @@
 				F9E05ABE2AE022390038C8EF /* NotesCoordinator.swift in Sources */,
 				CD65800C2AEA5EED00E921F0 /* MainCoordinator.swift in Sources */,
 				CD9BE6112AE910CA000636BF /* OnboardingViewController.swift in Sources */,
+				F9CE2F002AF15C2800AA62C7 /* NotesViewModel.swift in Sources */,
 				F9E05AD32AE039640038C8EF /* CreateNoteViewController.swift in Sources */,
+				F9CE2F042AF15F5200AA62C7 /* UIColor+Extensions.swift in Sources */,
 				F9E05AC92AE038D70038C8EF /* EventsViewController.swift in Sources */,
 				CD9BE6142AE91597000636BF /* OnboardingPage.swift in Sources */,
 			);

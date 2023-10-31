@@ -24,6 +24,8 @@ class MainViewController: UITabBarController {
         searchCoordinator.start()
         createNoteCoordinator.start()
         viewControllers = [notesCoordinator.navigationController,eventsCoordinator.navigationController,searchCoordinator.navigationController,createNoteCoordinator.navigationController]
+        tabBar.layer.borderWidth = 1
+        tabBar.layer.borderColor = UIColor.black.withAlphaComponent(0.1).cgColor
     }
 
 }
